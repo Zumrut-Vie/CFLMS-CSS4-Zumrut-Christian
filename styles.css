@@ -1,3 +1,6 @@
+* {
+	/*border: 1px solid;*/
+}
 .bold_hr {
 	border:  1em solid black;
 }
@@ -8,14 +11,20 @@
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	width: 90em;
+/*	align-content: flex-start;*/
+	width: 850px;
+	height: 200px;
+	min-width: initial;
 }
 .first_col {
-	flex: 4;
+	width: 600px;
+	height: 50px;
 }
 .second_col {
-	flex: 1;
+	width: 120px;
+	height: 50px;
 }
 .third_col {
-	flex: 1;
+	width: 120px;
+	height: 50px;
 }
