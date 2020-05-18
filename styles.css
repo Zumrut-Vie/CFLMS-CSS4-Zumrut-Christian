@@ -1,0 +1,21 @@
+.bold_hr {
+	border:  1em solid black;
+}
+.medium_hr {
+	border:  0.5em solid black;
+}
+#test {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 90em;
+}
+.first_col {
+	flex: 4;
+}
+.second_col {
+	flex: 1;
+}
+.third_col {
+	flex: 1;
+}
