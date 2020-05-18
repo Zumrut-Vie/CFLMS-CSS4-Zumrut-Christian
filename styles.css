@@ -1,5 +1,5 @@
 * {
-	/*border: 1px solid;*/
+	/*border: 1px solid; */
 }
 .bold_hr {
 	border:  1em solid black;
@@ -7,24 +7,32 @@
 .medium_hr {
 	border:  0.5em solid black;
 }
+.h_line {
+	width:  850px;
+	padding: 0;
+}
 #test {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 /*	align-content: flex-start;*/
 	width: 850px;
-	height: 200px;
-	min-width: initial;
+	height: 40em;
+}
+.title {
+	font-family: sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
 }
 .first_col {
 	width: 600px;
-	height: 50px;
+	height: 1em;
 }
 .second_col {
 	width: 120px;
-	height: 50px;
+	height: 1em;
 }
 .third_col {
 	width: 120px;
-	height: 50px;
+	height: 1em;
 }
