@@ -29,7 +29,7 @@
 	width: 90px;
 	height: 1em;
 }
-#test {
+#flex_container {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
